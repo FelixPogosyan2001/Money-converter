@@ -1,0 +1,124 @@
+#Rblock {
+  background-color:#361b4b;
+  position:absolute;
+  width:100%;
+  height: 100%;
+  opacity:0.9
+}
+#Lblock {
+  position:absolute;
+  width:100%;
+  height: 100%;
+}
+.row {
+  margin:0px
+}
+#circle {
+  background-image:url('./circle.PNG');
+  background-size: cover;
+  width:130px;
+  height:190px;
+  position:absolute;
+  left:45.3%;
+  z-index:3;
+  top:35%;
+}
+.dol {
+  width:300px;
+  height:300px;
+  position:relative;
+  top:-20px;
+  left:-55px;
+  border:10px solid #f2f2f2;
+  border-radius:250px;
+  text-align:center;
+  padding-top:70px;
+  font-size:120px;
+  transform : rotate(25deg);
+  color:#f2f2f2;
+}
+.sign {
+  width:300px;
+  height:300px;
+  position:relative;
+  top:240px;
+  left:350px;
+  border:10px solid #f2f2f2;
+  border-radius:250px;
+  text-align:center;
+  padding-top:70px;
+  font-size:120px;
+  transform : rotate(-25deg);
+  color:#f2f2f2;
+  opacity:0.3
+}
+.converter {
+  background-color: #9b92d3;
+  width:300px;
+  height:60px;
+  border-radius:8px;
+  box-shadow: 5px 5px 10px rgba(122,110,196 ,0.6)
+}
+input {
+  width:60% !important;
+  margin-left:40%;
+  position: relative;
+  top:5px;
+  background-color:	 #9b92d3 !important;
+  border:none !important;
+  border-bottom:1px solid rgba(255,255,255,1.0) !important;
+  color:white !important;
+  font-weight:bold !important;
+  font-size:22px !important;
+  text-align:right !important;
+  overflow:hidden !important;
+  padding:8px !important
+}
+#text_of_header{
+  font-size: 45px;
+  font-weight:900;
+}
+span {
+  position: absolute;
+  color:white;
+  margin-left:25px;
+  top:17px
+}
+body {overflow:hidden}
+#news {
+  background-color: lightgreen;
+  color:white;
+  font-weight:bold;
+  z-index:5;
+}
+#btnL {
+  position:relative;
+  left: 150px;
+  top:55px
+}
+#btnR {
+  position:relative;
+  right: 155px;
+  top:55px
+}
+.list:hover {
+  cursor:pointer;
+  background:  #ccffe6;
+  margin-right:20px;
+}
+#menu {
+  overflow : auto;
+  height:180px
+}
+#buttonCal {
+  text-align : center;
+  border-right : 1px solid silver;
+  border-bottom: 1px solid silver;
+  font-size:35px;
+  font-weight:bold;
+  background: white;
+  display:inline-block;
+  height:110px;
+  padding-top:25px;
+  z-index:4
+}
